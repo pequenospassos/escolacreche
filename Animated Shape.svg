@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="200" height="200" preserveAspectRatio="none" viewBox="0 0 200 200"><g mask="url(&quot;#SvgjsMask1615&quot;)" fill="none"><path d="M160.281,146.176C169.834,146.316,180.181,144.751,185.277,136.67C190.644,128.159,189.325,117.082,184.019,108.533C178.996,100.44,169.8,96.065,160.281,96.399C151.323,96.713,143.88,102.42,139.264,110.104C134.481,118.066,131.843,127.932,136.519,135.957C141.171,143.942,151.041,146.041,160.281,146.176" fill="rgba(1, 138, 232, 0.62)" class="triangle-float3"></path><path d="M65.81 57.9 a40.92 40.92 0 1 0 81.84 0 a40.92 40.92 0 1 0 -81.84 0z" fill="rgba(1, 138, 232, 0.62)" class="triangle-float2"></path><path d="M124.73 52.24 a46.05 46.05 0 1 0 92.1 0 a46.05 46.05 0 1 0 -92.1 0z" fill="rgba(1, 138, 232, 0.62)" class="triangle-float3"></path><path d="M-18.93 194.3 a51.5 51.5 0 1 0 103 0 a51.5 51.5 0 1 0 -103 0z" fill="rgba(1, 138, 232, 0.62)" class="triangle-float2"></path></g><defs><mask id="SvgjsMask1615"><rect width="200" height="200" fill="#ffffff"></rect></mask><style>
+            @keyframes float1 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-10px, 0)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float1 {
+                animation: float1 5s infinite;
+            }
+
+            @keyframes float2 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(-5px, -5px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float2 {
+                animation: float2 4s infinite;
+            }
+
+            @keyframes float3 {
+                0%{transform: translate(0, 0)}
+                50%{transform: translate(0, -10px)}
+                100%{transform: translate(0, 0)}
+            }
+
+            .triangle-float3 {
+                animation: float3 6s infinite;
+            }
+        </style></defs></svg>
